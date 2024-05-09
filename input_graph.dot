@@ -1,0 +1,15 @@
+graph InputGraph {
+node [shape=circle]
+  3 [label="Salem"]
+  1 [label="Chennai"]
+  2 [label="Sriperumbudhur"]
+  0 [label="Uthangarai"]
+  0 -- 1 [label="300"]
+  3 -- 1 [label="380"]
+  2 -- 1 [label="40"]
+  0 -- 2 [label="250"]
+  3 -- 2 [label="300"]
+  3 -- 0 [label="80"]
+  1 -- 3 [label="390"]
+  0 -- 3 [label="80"]
+}

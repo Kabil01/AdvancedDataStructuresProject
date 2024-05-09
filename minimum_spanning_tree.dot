@@ -1,0 +1,10 @@
+graph MinimumSpanningTree {
+node [shape=circle]
+  3 [label="Salem"]
+  1 [label="Chennai"]
+  2 [label="Sriperumbudhur"]
+  0 [label="Uthangarai"]
+  2 -- 1 [label="40"]
+  3 -- 0 [label="80"]
+  0 -- 2 [label="250"]
+}
